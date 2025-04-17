@@ -19,3 +19,8 @@ __pycache__/
 *.pyc
 *.mp3
 .DS_Store
+app/audio/
+__pycache__/
+*.pyc
+*.mp3
+.DS_Store
