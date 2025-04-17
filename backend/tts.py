@@ -1,7 +1,6 @@
 from gtts import gTTS
 
-def generate_speech(text: str, filename: str = "output.mp3"):
+def synthesize_text(text: str, path: str):
     tts = gTTS(text=text, lang="ru")
-    tts.save(filename)
-    return filename
+    tts.save(path)
 

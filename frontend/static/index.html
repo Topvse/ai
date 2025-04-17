@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Ассистент</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    button {
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>AI Голосовой Ассистент</h1>
+  <button onclick="sendEvent('click', 'кнопку Оформить заказ')">Оформить заказ</button>
+  <button onclick="sendEvent('click', 'кнопку Подписаться')">Подписаться</button>
+  <audio id="player" controls style="margin-top: 20px;"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

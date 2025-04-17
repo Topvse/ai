@@ -4,3 +4,8 @@ __pycache__/
 .env
 venv/
 output.mp3
+app/audio/
+__pycache__/
+*.pyc
+*.mp3
+.DS_Store
